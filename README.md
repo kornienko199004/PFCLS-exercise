@@ -2,6 +2,8 @@
 
 L'idée est de programmer la version du jeu "Pierre, Feuille, Ciseaux" popularisée par la série Big Bang Theory; à savoir "Pierre, Feuille, Ciseaux, Lézard, Spock"  Cette variante, popularisée par la série américaine The Big Bang Theory, a été originalement créée par Sam Kass and Karen Bryla.
 
+DEMO - [http://pfcls-bocs.rhcloud.com/]
+
 ![PFCLS règles](http://www.labri.fr/perso/gblin/Programmation1/image/PFCLS.png)
 
 ## Setting up

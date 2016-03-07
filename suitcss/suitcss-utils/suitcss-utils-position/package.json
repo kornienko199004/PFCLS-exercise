@@ -1,0 +1,106 @@
+{
+  "_args": [
+    [
+      "suitcss-utils-position@^1.0.1",
+      "/Users/mickaelabensur/Dev/pfcls-jsrepublic/node_modules/suitcss/node_modules/suitcss-utils"
+    ]
+  ],
+  "_from": "suitcss-utils-position@>=1.0.1 <2.0.0",
+  "_id": "suitcss-utils-position@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/suitcss/suitcss-utils/suitcss-utils-position",
+  "_nodeVersion": "5.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/suitcss-utils-position-1.0.1.tgz_1456181612451_0.09535309160128236"
+  },
+  "_npmUser": {
+    "email": "me@simonsmith.io",
+    "name": "simonsmith"
+  },
+  "_npmVersion": "2.14.15",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "suitcss-utils-position",
+    "raw": "suitcss-utils-position@^1.0.1",
+    "rawSpec": "^1.0.1",
+    "scope": null,
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/suitcss/suitcss-utils"
+  ],
+  "_resolved": "https://registry.npmjs.org/suitcss-utils-position/-/suitcss-utils-position-1.0.1.tgz",
+  "_shasum": "28c602f3be756e9330956ad06aab04de7945c4dd",
+  "_shrinkwrap": null,
+  "_spec": "suitcss-utils-position@^1.0.1",
+  "_where": "/Users/mickaelabensur/Dev/pfcls-jsrepublic/node_modules/suitcss/node_modules/suitcss-utils",
+  "bugs": {
+    "url": "https://github.com/suitcss/utils-position/issues"
+  },
+  "dependencies": {},
+  "description": "Positioning utilities for SUIT CSS",
+  "devDependencies": {
+    "stylelint-config-suitcss": "^4.0.0",
+    "suitcss-components-test": "*",
+    "suitcss-preprocessor": "^1.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "28c602f3be756e9330956ad06aab04de7945c4dd",
+    "tarball": "http://registry.npmjs.org/suitcss-utils-position/-/suitcss-utils-position-1.0.1.tgz"
+  },
+  "files": [
+    "index.css",
+    "index.js",
+    "lib"
+  ],
+  "gitHead": "ba9764ff594fd195ea37858eb68c6215298a51d9",
+  "homepage": "https://github.com/suitcss/utils-position#readme",
+  "keywords": [
+    "browser",
+    "css-utilities",
+    "position",
+    "suitcss",
+    "style"
+  ],
+  "maintainers": [
+    {
+      "email": "ggurgone@gmail.com",
+      "name": "giuseppegurgone"
+    },
+    {
+      "email": "nicolasgallagher@gmail.com",
+      "name": "necolas"
+    },
+    {
+      "email": "me@simonsmith.io",
+      "name": "simonsmith"
+    },
+    {
+      "email": "tim@fusionary.com",
+      "name": "timkelty"
+    }
+  ],
+  "name": "suitcss-utils-position",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suitcss/utils-position.git"
+  },
+  "scripts": {
+    "build": "npm run setup && npm run preprocess",
+    "build-test": "npm run setup && npm run preprocess-test",
+    "lint": "suitcss -c test/config.json index.css build/lint.css && rm build/lint.css",
+    "preprocess": "suitcss index.css build/build.css",
+    "preprocess-test": "suitcss -i test test/test.css build/test.css",
+    "setup": "npm install",
+    "test": "npm run lint",
+    "watch": "npm run preprocess-test -- -w -v"
+  },
+  "style": "index.css",
+  "version": "1.0.1"
+}

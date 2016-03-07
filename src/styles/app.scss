@@ -1,0 +1,62 @@
+body {
+  background-color: #ddd;
+}
+.my-u-white {
+  background-color: white !important;;
+}
+.my-u-grey {
+  background-color: #eee !important;;
+}
+.my-u-fullWidth {
+  width: 100% !important;
+}
+.my-u-marTop-20 {
+  margin-top: 20px !important;
+}
+.my-u-marTop-40 {
+  margin-top: 40px !important;
+}
+.my-u-marBot-40 {
+  margin-bottom: 40px !important;
+}
+.u-verticalAlign-middle {
+  display: inline-block;
+  line-height: 110px;
+  vertical-align: middle;
+}
+
+.my-PlayerStatus {
+  min-height: 50px !important;
+  &-btn {
+    height: inherit !important;
+  }
+  button {
+    flex: 1 1 0% !important;
+    height: inherit !important;
+    span {
+      line-height: 16px !important;
+    }
+  }
+ &-text {
+   padding: 10px;
+   color: white;
+ }
+}
+.my-Board {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.my-GameEnding {
+  padding: 20px;
+}
+.my-Canvas {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.my-Result {
+  &-verb {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

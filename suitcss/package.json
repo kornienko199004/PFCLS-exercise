@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "suitcss",
+      "/Users/mickaelabensur/Dev/pfcls-jsrepublic"
+    ]
+  ],
+  "_from": "suitcss@latest",
+  "_id": "suitcss@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/suitcss",
+  "_nodeVersion": "5.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/suitcss-1.0.0.tgz_1456683749185_0.940524993930012"
+  },
+  "_npmUser": {
+    "email": "me@simonsmith.io",
+    "name": "simonsmith"
+  },
+  "_npmVersion": "2.14.15",
+  "_phantomChildren": {
+    "normalize.css": "3.0.3"
+  },
+  "_requested": {
+    "name": "suitcss",
+    "raw": "suitcss",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/suitcss/-/suitcss-1.0.0.tgz",
+  "_shasum": "a499efbc50a94355411730fad71e130c0a6c75a7",
+  "_shrinkwrap": null,
+  "_spec": "suitcss",
+  "_where": "/Users/mickaelabensur/Dev/pfcls-jsrepublic",
+  "bugs": {
+    "url": "https://github.com/suitcss/suit/issues"
+  },
+  "dependencies": {
+    "suitcss-base": "^1.0.2",
+    "suitcss-components": "^1.0.1",
+    "suitcss-utils": "^1.0.0"
+  },
+  "description": "CSS base styles, utilities, and structural components for web apps",
+  "devDependencies": {
+    "suitcss-preprocessor": "^1.0.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "a499efbc50a94355411730fad71e130c0a6c75a7",
+    "tarball": "http://registry.npmjs.org/suitcss/-/suitcss-1.0.0.tgz"
+  },
+  "files": [
+    "index.css"
+  ],
+  "gitHead": "9f1050706e4db062514456896c6fd31edf397b05",
+  "homepage": "https://github.com/suitcss/suit#readme",
+  "keywords": [
+    "browser",
+    "css-components",
+    "css-utilities",
+    "suitcss",
+    "style"
+  ],
+  "maintainers": [
+    {
+      "email": "ggurgone@gmail.com",
+      "name": "giuseppegurgone"
+    },
+    {
+      "email": "nicolasgallagher@gmail.com",
+      "name": "necolas"
+    },
+    {
+      "email": "me@simonsmith.io",
+      "name": "simonsmith"
+    },
+    {
+      "email": "tim@fusionary.com",
+      "name": "timkelty"
+    }
+  ],
+  "name": "suitcss",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/suitcss/suit.git"
+  },
+  "scripts": {
+    "build": "npm run setup && npm run preprocess",
+    "preprocess": "suitcss index.css build/build.css",
+    "setup": "npm install"
+  },
+  "style": "index.css",
+  "version": "1.0.0"
+}

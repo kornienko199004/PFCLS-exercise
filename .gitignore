@@ -1,0 +1,8 @@
+##### folders #####
+/bower_components
+/node_modules
+/www
+
+##### files #####
+*.DS_Store
+.DS_Store

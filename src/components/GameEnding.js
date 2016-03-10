@@ -18,7 +18,7 @@ const GameEnding = ({ playersNumber, players, playNewGame }) => {
     isDisplayed = bothPlayerHaveChosen ? 'block' : 'none';
     if (bothPlayerHaveChosen) {
       winner = Utils.getTheWinner(objectToArray);
-      resultData = Utils.findOutIfYouHaveWon(players[winner[1]], players[winner[2]]);
+      resultData = Utils.findOutIfYouHaveWon(players[winner[1]], players[winner[2]], mySocketId);
     }
   } else {
     isDisplayed = 'none';

@@ -61,12 +61,12 @@ const mapPlayers = (first, second) => R.isEmpty(isKilling(first.symbol, second.s
 
 Utils.getTheWinner = (players) => mapPlayers(players[0], players[1]);
 
-Utils.findOutIfYouHaveWon = (winner, looser) => {
+Utils.findOutIfYouHaveWon = (winner, looser, sock) => {
   let whoami = "L'équipe " + winner.color + " l'emporte";
-  if (winner.id === mySocketId) {
+  if (winner.id === sock) {
     whoami = "Vous l'emportez";
   }
-  if (looser.id === mySocketId) {
+  if (looser.id === sock) {
     whoami = "Votre adversaire l'emporte";
   }
   if ( winner.symbol === looser.symbol ) {
@@ -80,5 +80,4 @@ Utils.findOutIfYouHaveWon = (winner, looser) => {
   };
 };
 
-window.Utils = Utils;
-window.R = R;
+export default Utils;

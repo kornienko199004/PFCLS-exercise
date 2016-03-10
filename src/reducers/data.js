@@ -1,13 +1,5 @@
 import { Map, Record } from 'immutable';
-
-const Player = Record({
-  color: null,
-  joinedAt: null,
-  id: null,
-  status: '',
-  statusText: '',
-  symbol: null,
-});
+import Player from '../records/Player'
 
 const InitialState = Record({
   players: Map(),

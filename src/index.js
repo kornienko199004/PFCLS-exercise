@@ -9,7 +9,7 @@ import ReactDOM from 'react-dom';
 import ReduxProvider from './components/ReduxProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-// expose variables globally in the app scope
+// attach variables to browser scope on http://localhost:8080/
 window.Utils = Utils;
 window.R = R;
 

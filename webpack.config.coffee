@@ -19,6 +19,7 @@ module.exports =
       { test: /\.css$/,  loader: 'style!css' }
       { test: /\.jsx$/,  loader: 'react-hot!babel' }
       { test: /\.js$/,   loader: 'babel' }
+      { test: require.resolve("react"), loader: "expose?React" }
     ]
   plugins: [
     new HtmlWebpackPlugin({

@@ -68,14 +68,14 @@ const Board = ({ playersNumber, players, setPlayerSymbol, selectSymbol, selected
           { _.map(symbols, (rules, symbol) =>
             <li className="u-inlineBlock" key={symbol}>
               <button className="Button Button--default" onClick={ selectSymbol.bind(null, symbol) }>
-                <img src={'./images/symbol-' + symbol + '_thumb.png'} />
+                <img src={'https://www.linkbocs.com/pfcls/symbol-' + symbol + '_thumb.png'} />
               </button>
             </li>
           )}
         </ul>
       }
       <div>
-        <img src={'./images/symbol-' + selectedSymbol + '.png'} />
+        <img src={'https://www.linkbocs.com/pfcls/symbol-' + selectedSymbol + '.png'} />
       </div>
       <ul>
         { _.map(symbols[selectedSymbol], (rule, index) =>

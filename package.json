@@ -2,12 +2,12 @@
   "author": "Mickael Abensur <armouredorange@gmail.com>",
   "bin": "node_modules/.bin",
   "scripts": {
-    "suitcss": "npm i suitcss@1.0.0 --legacy-bundling",
+    "suitcss": "cp -r suitcss node_modules",
     "start": "node server.js",
     "stop": "pkill -9 -f pfcls",
     "test": "tape -r babel-register test/**/*.js | faucet",
     "coverage": "isparta cover --report text ./test/*.js",
-    "build": "webpack",
+    "build": "npm run suitcss && webpack",
     "start:watch": "webpack-dev-server --content-base www/ --hot",
     "test:watch": "nodemon -q -x 'npm test'"
   },

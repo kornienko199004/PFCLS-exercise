@@ -6,9 +6,9 @@ class Result extends React.Component {
     return (
       <div className="my-Result">
         <div>
-            <img className="u-verticalAlign-middle" src={'./images/symbol-' + p.winnerSymbol + '_thumb.png'} />
+            <img className="u-verticalAlign-middle" src={'https://www.linkbocs.com/pfcls/symbol-' + p.winnerSymbol + '_thumb.png'} />
             <span className="my-Result my-Result-verb u-inlineBlock u-verticalAlign-middle">{p.verb}</span>
-            <img className="u-verticalAlign-middle" src={'./images/symbol-' + p.looserSymbol + '_thumb.png'} />
+            <img className="u-verticalAlign-middle" src={'https://www.linkbocs.com/pfcls/symbol-' + p.looserSymbol + '_thumb.png'} />
         </div>
         <h3>{p.whoami + ' avec ' + p.winnerSymbol + ' !' }</h3>
       </div>
